@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-  <Questions v-if="apiQuiz.length" v-bind:questions="apiQuiz" />
+  <Questions />
     <Options />
   </div>
 </template>
